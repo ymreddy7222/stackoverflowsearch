@@ -39,7 +39,7 @@ public class StackoverflowsearchApplication {
 					if (count < 5) {
 
 						logger.info("title : " + result.getTitle());
-						logger.info("\033[ URL : " + result.getLink() + "\033[0m");
+						logger.info("URL : " + result.getLink());
 						logger.info("Author Display Name : " + result.getOwner().getDisplay_name());
 						count++;
 					}
